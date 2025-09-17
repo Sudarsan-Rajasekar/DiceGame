@@ -1,0 +1,45 @@
+body{
+    background-color: #ECEBDE;
+    /* color: rgb(255, 255, 255); */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    
+}
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+h1{
+    margin:30px;
+    font-family: "Lobster",cursive;
+    /* text-shadow: 1px 0 #000000; */
+    font-size: 5rem;
+    color:#3E1E68;
+    /* color:#4F200D; */
+    cursor: pointer;
+    /* color:darkblue; */
+
+}
+h1:hover {
+  color: #62329e;;         /* color on hover */
+}
+p{
+    font-size: 2rem;
+    color:#4F200D;
+    font-family: "Lobster",cursive;
+
+}
+img{
+    width: 80%;
+}
+footer{
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    font-family: "Indie Flower",cursive;
+}
