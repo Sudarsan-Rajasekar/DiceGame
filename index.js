@@ -8,14 +8,21 @@ img2.setAttribute("src","./assets/dice"+randomNumber2+".png")
 
 if(randomNumber1 > randomNumber2)
 {
-document.querySelector("#player1").textContent = "✅Player 1 Wins";
+document.querySelector("#player1").textContent = "🟢Player 1";
+document.querySelector("#player2").textContent = "🔴Player 2";
 }
 else if(randomNumber1 < randomNumber2)
 {
-document.querySelector("#player2").textContent = "✅Player 2 Wins";
+document.querySelector("#player2").textContent = "🟢Player 2";
+document.querySelector("#player1").textContent = "🔴Player 1";
 }
 else if(randomNumber1 === randomNumber2)
 {
-document.querySelector("#player1").textContent = "Player 1 Draw"
-document.querySelector("#player2").textContent = "🟰Player 2 Draw"
+document.querySelector("#player1").textContent = "🟢Player 1"
+document.querySelector("#player2").textContent = "🟢Player 2"
 }
+
+const heading = document.querySelector('h1')
+heading.addEventListener("click",
+    () => {location.reload();}
+);
